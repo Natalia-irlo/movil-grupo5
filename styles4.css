@@ -1,0 +1,29 @@
+.fa-brands{
+    font-size: 25px;
+}
+.btn {
+    
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    font-weight: bold;
+    padding: 10px 30px;
+    background:#ea1515;
+    color:#fff;
+    font-size: 15px;
+    border-radius: 30px;
+  }
+  .btn:hover {
+    opacity: 0.7;
+  }
+  .botonesbajos{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .texto{
+    text-align: center;
+  }
