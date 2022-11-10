@@ -1,0 +1,77 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.estrellas {
+      width: 8%;
+}
+
+.patrocinador {
+      width: 5%;
+}
+
+.fa-users {
+      font-size: 50px;
+  }
+
+.fa-code {
+      font-size: 50px;
+  }
+
+.fa-gear {
+      font-size: 50px;
+  }
+
+.fa-comments{
+      font-size: 50px;
+  }
+
+  .fa-rocket{
+      font-size: 50px;
+  }
+
+  /* Animaciones*/
+
+  .scale-up-center{
+      animation:
+      scale-up-center 1.5s; 
+} 
+
+@keyframes scale-up-center{
+       0%{
+            transform:scale(.5)
+      }
+       100%
+       {transform:scale(1)
+      } 
+}
+
+.scale-up-horizontal-center{
+      animation:
+      scale-up-horizontal-center 1.5s} 
+
+@keyframes scale-up-horizontal-center{
+      0%{
+            transform:scaleX(.2)
+      }
+      100%{
+            transform:scaleX(1)
+      }
+}
+
+.scale-up-horizontal-left{
+      animation:
+      scale-up-horizontal-left 2s
+ }
+  @keyframes scale-up-horizontal-left{
+      0%{
+            transform:scaleX(.4);
+            transform-origin:left center
+      }
+      100%{
+            transform:scaleX(1);
+            transform-origin:left center
+      }
+}
